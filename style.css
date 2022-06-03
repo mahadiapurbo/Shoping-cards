@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #F8F8F8;
+}
+#box-container{
+    width: 60%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#box1, #box2, #box3{
+    flex-basis:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F8F8F8;
+    border-radius: 25px;
+    box-shadow: 0 0 2px rgb(180, 172, 172);
+}
+.box1-part1, .box3-part1, .box2-part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: #F34A4E;
+    padding: 50px 20px;
+    border: none;
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px ;
+}
+.box1-part2, .box2-part2, .box3-part2{
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 205px;
+}
+.box1-part2 li, .box2-part2 li, .box3-part2 li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.box1-part3, .box2-part3, .box3-part3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1-part3 p, .box2-part3 p, .box3-part3 p{
+    padding-bottom: 7px;
+}
+.box1-part3 span, .box2-part3 span, .box3-part3 span{
+    font-size: 44px;
+    color: #F34A4E;
+}
+.box1-part3 button, .box3-part3 button{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #F34A4E ;
+    margin: 20px 0px;
+}
+
+
+/* box-2 */
+
+.box2-part1{
+    background: #1FA19C;
+}
+.box2-part2 {
+    padding-bottom: 125px;
+}
+
+.box2-part3 button{
+    width: 80%;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    background: #1FA19C;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+
+/* box-3 */
+
+
+.box3-part2 {
+    padding-bottom: 100px;
+}
+
